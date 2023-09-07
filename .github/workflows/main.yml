@@ -1,9 +1,9 @@
 name: run python file
 
 on:
-  push:
-    branches:
-      - master
+  issues:
+      types:
+        - opened
 
 jobs:
   python_run:
